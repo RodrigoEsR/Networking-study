@@ -1,62 +1,61 @@
-# Estudo de Redes (Networking-study)
+# 🌐 Estudo de Redes (Networking-study)
 
-Este repositório é dedicado ao estudo de redes de computadores, utilizando o **Cisco Packet Tracer** como principal ferramenta de simulação e aprendizado.
+Este repositório é dedicado ao estudo prático de redes de computadores, utilizando o **Cisco Packet Tracer** como principal ferramenta de simulação e aprendizado. O foco é documentar a implementação de infraestruturas que simulam cenários reais de redes corporativas e conectividade ISP.
+
+---
 
 ## 🚀 Visão Geral do Projeto
 
-O projeto apresenta a implementação prática de uma rede local (LAN) conectada a um Provedor de Serviços de Internet (ISP). O objetivo é documentar a configuração e o funcionamento de diversos protocolos e tecnologias de infraestrutura.
+O projeto apresenta a implementação de redes locais (LAN) robustas e conectividade com Provedores de Internet (ISP). O objetivo é demonstrar a configuração e o funcionamento de protocolos de camadas 2, 3 e 4, além de serviços avançados de segurança e redes sem fio.
 
 ## 🛠️ Conceitos e Tecnologias Aplicados
 
 Neste laboratório, foram implementados e configurados os seguintes tópicos:
 
-* **Camada 2 (Enlace):** Configuração de VLANs, STP (Spanning Tree Protocol), DTP (Dynamic Trunking Protocol), BPDUs e escolha correta de cabeamento para conexões de terminais.
-* **Camada 3 (Rede):** Endereçamento IPv4, Subnetting (Sub-redes), e ACLs (Listas de Controle de Acesso).
-* **Protocolos de Roteamento:** Implementação de roteamento dinâmico com RIP, OSPF e configuração de ASN (Autonomous System Number).
-* **Serviços de Rede:** DHCP para atribuição dinâmica de IPs e compreensão de fluxos TCP e UDP.
+* **Camada 2 (Enlace):** Configuração de VLANs, STP (Spanning Tree Protocol) para prevenção de loops, DTP (Dynamic Trunking Protocol) e otimização de BPDUs.
+* **Camada 3 (Rede):** Endereçamento IPv4, Subnetting (VLSM) e ACLs (Listas de Controle de Acesso) para filtragem de tráfego e segurança.
+* **Protocolos de Roteamento:** Implementação de roteamento dinâmico com RIP e OSPF, além de configuração de ASN (Autonomous System Number).
+* **Redes Sem Fio (Wi-Fi):** Configuração de Pontos de Acesso (APs) com foco em **mitigação de interferência de rádio** (ajuste fino de canais e potência) para garantir estabilidade de sinal.
+* **Segurança e Autenticação:** Implementação de um servidor **RADIUS/EAP** para autenticação centralizada, garantindo que os terminais utilizem credenciais individuais (WPA Enterprise).
+* **Serviços de Rede:** DHCP para atribuição dinâmica de IPs e compreensão prática de fluxos TCP e UDP.
 
-## 📂 Estrutura do Repositório
+---
 
-* **/Cenarios:** Contém os arquivos `.pkt` para abertura no Cisco Packet Tracer.
-* **/Documentacao:** Guias detalhados sobre como cada protocolo foi configurado passo a passo.
+## 📂 Arquivos do Projeto
+
+* **Projeto_redes.pkt:** Simulação da topologia de rede estruturada, roteamento e serviços.
+* **projetoWIFI.pkt:** Laboratório focado em infraestrutura sem fio, segurança EAP e ajustes de interferência.
 
 ---
 
 ## 📝 Como Utilizar
 
-1. Instale o **Cisco Packet Tracer** (versão recomendada: 8.x ou superior).
-2. Clone este repositório:
-   ```bash
-   git clone [https://github.com/seu-usuario/Networking-study.git](https://github.com/seu-usuario/Networking-study.git)
-
-# Networking Study
-
-This repository contains a comprehensive study on computer networking, using **Cisco Packet Tracer** as the primary simulation tool.
-
-## 🚀 Project Overview
-
-This project demonstrates a practical implementation of a local network (LAN) connecting to an Internet Service Provider (ISP). It serves as a documentation of my learning path through fundamental and advanced networking concepts.
-
-## 🛠️ Concepts & Technologies Applied
-
-I have implemented and configured the following protocols and features within this lab:
-
-* **Layer 2:** VLANs, STP (Spanning Tree Protocol), DTP (Dynamic Trunking Protocol), BPDU, and proper cable selection for terminal connections.
-* **Layer 3 (Network):** IPv4 Addressing, Subnetting (VLSM), and ACLs (Access Control Lists).
-* **Routing Protocols:** RIP, OSPF, and ASN configuration for inter-domain routing.
-* **Services:** DHCP for dynamic IP assignment.
-* **Transport Layer:** Practical understanding of TCP and UDP data flow.
-
-## 📂 Project Structure
-
-* **/Scenarios:** Contains the `.pkt` files for Cisco Packet Tracer.
-* **/Documentation:** Step-by-step guides on how these protocols were configured.
+1.  Instale o **Cisco Packet Tracer** (versão recomendada: 8.x ou superior).
+2.  Clone este repositório:
+    ```bash
+    git clone [https://github.com/seu-usuario/Networking-study.git](https://github.com/seu-usuario/Networking-study.git)
+    ```
+3.  Abra os arquivos `.pkt` diretamente na raiz do projeto para explorar as configurações via CLI.
 
 ---
 
+# 🌐 Networking Study (English Version)
+
+This repository contains a comprehensive study on computer networking, using **Cisco Packet Tracer** as the primary simulation tool.
+
+## 🛠️ Concepts & Technologies Applied
+
+* **Layer 2 & 3:** VLANs, STP, DTP, IPv4 Addressing (VLSM), and ACLs.
+* **Routing:** RIP, OSPF, and ASN configuration.
+* **Wireless & Security:** AP configuration with **interference mitigation** and **RADIUS/EAP** authentication (WPA Enterprise).
+* **Services:** DHCP and TCP/UDP data flow analysis.
+
+## 📂 Project Files
+
+* **Projeto_redes.pkt:** Main network topology, routing, and services.
+* **projetoWIFI.pkt:** Focused lab for wireless infrastructure and EAP security.
+
 ## 📝 How to Use
 
-1. Download and install **Cisco Packet Tracer**.
-2. Clone this repository:
-   ```bash
-   git clone [https://github.com/seu-usuario/Networking-study.git](https://github.com/seu-usuario/Networking-study.git)
+1.  Open **Cisco Packet Tracer**.
+2.  Clone the repo and open the `.pkt` files directly from the root folder.
